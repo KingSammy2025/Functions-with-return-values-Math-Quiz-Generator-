@@ -1,4 +1,4 @@
-// Math Quiz Generator
+ // Math Quiz Generator
 
 // Event Listener with an Anonymous Function
 // Note: In order to pass parameters to an event function, you must
@@ -10,15 +10,26 @@ document.getElementById("submit").addEventListener("click", function () {
 
 // 1. Write the function getRandomNumber that generates a random whole number from 1 to 10
 // This function has no parameters or return value.
+function getRandomNumber() {
+  let rand = Math.floor(Math.random() * 10) + 1;
+}
 
 // 2. Write the function generateQuestion to update the question on the page
 // This function has 2 parameters, which are the numbers to display in the question
 // This function returns a string
+function generateQuestion(num1, num2) {
+  {
+    return num1, num2;
+  }
+}
 
 // 3. Initialize the quiz by creating 2 global variables for the numbers of the quiz question.
 // These values are random and should use the getRandomNumber function
 // You must also have a line that displays the question and this line
 // must include the generateQuestionText function.
+function getRandomNumber(num1, num2) {
+  return num1, num2;
+}
 
 // 4. Write the getFeedback function. This function takes 2 parameters:
 // the user's guess and the correct answer.
